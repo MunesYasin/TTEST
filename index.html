@@ -4,23 +4,32 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>VideoGames</title>
-  
+
+  <style>
+      body {margin:0;padding:0}
+      header{background-color: blue ; height: 50px}
+      main{display:flex;justify-content: center}
+      form{margin:15%;width:250px}
+      .input{width: 93%;padding: 3%;}
+      #button{float: right; background-color: red;width: 50%; color: white;padding: 3%}
+  </style>
+
 </head>
 
-<body style="margin:0;padding:0">
+<body >
 
-	<header style="background-color: blue ; height: 50px">
+	<header >
+
+    </header>
 		   
-	</header>
-	<main style="display:flex;
-	justify-content: center;">
-		<form style="margin:15%;width:250px">
+	
+	<main >
+		<form >
             
-            <input style="width: 93%;padding: 3%;" type="text" id="fname" name="fname"  placeholder="Username"><br><br>
+            <input class="input" type="text" placeholder="Username"><br><br>
             
-            <input style="width: 93%;padding: 3% ;" type="text" id="lname" name="lname"  placeholder="Password"><br><br>
-            <input type="submit" value="Login" style="float: right; background-color: red;width: 50%; color: white;padding: 3%">
+            <input class="input" type="text" placeholder="Password"><br><br>
+            <input type="submit" value="Login" id="button">
           </form>
 
 	</main>
